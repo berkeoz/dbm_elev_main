@@ -12,17 +12,6 @@
             "EnvironmentType": "DEV",
             "Databases": [
               {
-                "DatabaseId": "146a987e-a2f0-4db4-a385-1ef2e9ea103a",
-                "DatabaseAliasName": "dbm_elev1",
-                "DatabaseConnectionDetails": null,
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
-                  "RemoteRepositoryURL": "https://github.com/berkeoz/dbm_elev_test.git",
-                  "RemoteBranchName": "main",
-                  "LocalBranchName": "main"
-                }
-              },
-              {
                 "DatabaseId": "2f7d0d7d-774d-4a5a-90bf-22985a317cd0",
                 "DatabaseAliasName": "dbm_elev1",
                 "DatabaseConnectionDetails": null,

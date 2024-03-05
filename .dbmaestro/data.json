@@ -21,6 +21,17 @@
                   "RemoteBranchName": "main",
                   "LocalBranchName": "main"
                 }
+              },
+              {
+                "DatabaseId": "2f7d0d7d-774d-4a5a-90bf-22985a317cd0",
+                "DatabaseAliasName": "dbm_elev1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/berkeoz/dbm_elev_test.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
               }
             ]
           }
@@ -47,7 +58,43 @@
       "UserData": [
         {
           "UserName": "berkeoz",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "2f7d0d7d-774d-4a5a-90bf-22985a317cd0",
+              "DatabaseAliasName": "dbm_elev1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "berkeoz",
+                "Password": "OwpWlkWmltynchlAGzUVJhagkl4gbzNshplobMMz7PjSNDNYC+pPI+/W6mO5R+Lj"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "2f7d0d7d-774d-4a5a-90bf-22985a317cd0",
+              "DatabaseAliasName": "dbm_elev1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "WIN-1ESKM8BKI0U",
+                    "port": "1521",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "ORCLPDB.LOCALDOMAIN",
+                    "userName": "DBM_ELEV",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null,

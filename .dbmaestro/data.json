@@ -1,5 +1,59 @@
 {
-  "Projects": [],
+  "Projects": [
+    {
+      "GlobalData": {
+        "ProjectId": "d185b145-b5fe-40d8-880c-75fbdb8a068e",
+        "ProjectName": "dbm_elev1",
+        "DBTypeName": "Oracle",
+        "Environments": [
+          {
+            "EnvironmentId": "71660e83-02de-48e6-b053-75a2eb3140cc",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "2f7d0d7d-774d-4a5a-90bf-22985a317cd0",
+                "DatabaseAliasName": "dbm_elev1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/berkeoz/dbm_elev_test.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {
+            "MetadataConfiguration": {},
+            "ValidationConfiguration": {},
+            "BuildConfiguration": {}
+          },
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "NumberOfDaysBuildByTaskIsRelevant": 30,
+          "PreventCommitObjectWithConflict": false,
+          "SaveObjectScopeAtProjectLevel": null,
+          "UseCache": null,
+          "IgnoreTextualChangesBasedOnMetadata": true
+        },
+        "ProjectArchitecture": 1,
+        "LocalDirectory": ""
+      },
+      "UserData": [
+        {
+          "UserName": "berkeoz",
+          "DatabasesData": []
+        }
+      ],
+      "DatabasesStaticDataObjects": null,
+      "DatabasesScopeObjects": null
+    }
+  ],
   "GlobalConfigurations": null,
   "RepositoryConfiguration": null,
   "GeneralConfigurations": {
